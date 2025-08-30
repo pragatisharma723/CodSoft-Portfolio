@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    /* Navigation styles */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(246, 244, 249);
+      display: inline-block;   
+      border-radius: 6px;      
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: rgb(6, 6, 6);
+      padding: 20px 30px;       
+      background-color: #6b6b74;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    li a:hover {
+      background-color: #b0abb5;
+    }
+
+    nav {
+      text-align: center;      
+      margin-top: 10px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #6b6b74;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    /* Bio + Image Section */
+    .bio-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 40px;
+      min-height: 80vh;
+      font-family: Arial, sans-serif;
+      gap: 40px;
+    }
+
+    .bio-text {
+      flex: 1;
+      text-align: left;
+      color: white;
+    }
+
+    .bio-text h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .bio-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .bio-img {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bio-img img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 36px;
+    }
+    
+  </style>
+</head>
+<body style="background-color:black; color:white; margin:0; padding:0;">
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="contactus.html" target="_blank">#Contact</a></li>
+        <li><a href="Expertise.html" target="_blank">#Skills and Expertise </a></li>
+        <li><a href="gallery.html" target="_blank">#Certificates</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <h1>PORTFOLIO</h1>
+    <h2 style="text-align:center; color:#ccc; font-style:bold; margin:15px 0;">
+  "Turning ideas into reality through design and code."
+    </h2>
+<hr style="width:60%; margin:20px auto; border:1px solid #6b6b74;">
+<hr style="width:60%; margin:20px auto; border:1px solid #6b6b74;">
+
+    <div class="bio-container">
+      <!-- Left Section -->
+      <div class="bio-text">
+        <h2>Pragati Sharma</h2>
+        <p>
+          I’m a passionate software developer with experience in building applications,
+          designing user-friendly interfaces, and analyzing data to uncover insights.
+          Over the years, I’ve honed my skills in multiple programming languages including 
+          <strong>C, C++, Python, JavaScript, HTML, and CSS</strong>, along with a solid 
+          foundation in web development.
+        </p>
+        <p>
+          I enjoy solving problems through clean code, creative design, and logical thinking.
+          Whether it’s developing efficient software, designing responsive websites, or 
+          analyzing data for smarter decisions, I approach every project with curiosity and 
+          attention to detail.
+        </p>
+              <a href="resume.pdf" download 
+         style="margin-top:20px; display:inline-block; padding:12px 20px; background-color:#6b6b74; color:white; text-decoration:none; border-radius:6px; font-size:16px;">
+          Download My Resume
+      </a>
+      </div>
+
+      
+ 
+        
+
+      <!-- Right Section -->
+      <div class="bio-img">
+        
+        <img src="self.png" alt="Pragati Sharma">
+      </div>
+    </div>
+    <hr style="width:60%; margin:20px auto; border:1px solid #6b6b74;">
+    <hr style="width:60%; margin:20px auto; border:1px solid #6b6b74;">
+
+           <!-- Projects Section -->
+<section style="padding:60px 40px; background-color:black; color:white; font-family:Arial, sans-serif;">
+  <h2 style="text-align:center; font-size:28px; margin-bottom:30px;">My Projects</h2>
+  
+  <!-- Projects Container -->
+  <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap;">
+    
+    <!-- Project 1 -->
+    <div style="width:280px; background-color:#535252; border-radius:10px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.5);">
+      <img src="14.png" alt="Project 1" style="width:100%; height:160px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="margin:0 0 10px; font-size:20px; color:#fff;">Portfolio Website</h3>
+        <p style="font-size:14px; color:#bbb;">A personal website showcasing my bio, skills, and resume download feature. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div style="width:280px; background-color:#555454; border-radius:10px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.5);">
+      <img src="13.png" alt="Project 2" style="width:100%; height:160px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="margin:0 0 10px; font-size:20px; color:#fff;">Data Analysis Dashboard</h3>
+        <p style="font-size:14px; color:#bbb;">A Python-powered dashboard for analyzing datasets and visualizing insights using Pandas and Matplotlib.</p>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div style="width:280px; background-color:#5d5a5a; border-radius:10px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.5);">
+      <img src="project3.jpeg" alt="Project 3" style="width:100%; height:160px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="margin:0 0 10px; font-size:20px; color:#fff;">UI/UX Design Prototype</h3>
+        <p style="font-size:14px; color:#bbb;">An interactive app prototype designed in Figma, focusing on clean UI and user-friendly experience.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- View More Button -->
+  <div style="text-align:center; margin-top:40px;">
+    <a href="projects.html" 
+       style="padding:12px 24px; background-color:#6b6b74; color:white; text-decoration:none; border-radius:6px; font-size:16px;">
+       🔗 View More Projects
+    </a>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website | All rights reserved.</p>
+    <p>Contact Me</p>
+    <p>Email: pragati@gmail.com</p>
+    <p>Phone: +91 9999999999</p>
+  </footer>
+
+</body>
+</html>
